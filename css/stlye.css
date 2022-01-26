@@ -1,0 +1,37 @@
+.top{
+  background: url(../img/firstview.jpg);
+  height: 400px;
+}
+.top h1{
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  line-height: 400px;
+}
+.main{
+  width: 1000px;
+  text-align: center;
+  margin: 70px 0 70px 0;
+}
+.imgtitle{
+  width: 1000px;
+  text-align: center;
+  margin: 0 0 70px 0;
+}
+.img{
+  display: flex;
+  text-align: center;
+}
+.img img{
+  width: 300px;
+}
+.img>div{
+  width: 33%;
+}
+.com{
+  display: flex;
+}
+.contact{
+  width: 1000px;
+  text-align: center;
+}
