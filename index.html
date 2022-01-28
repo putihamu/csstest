@@ -5,13 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/stlye.css"/>
 </head>
 <body>
   <div class="top">
     <h1>キャッチコピー</h1>
   </div>
-<section>
+<section class="con">
   <div class="main">
     <h3>about</h3>
     <p>coachtech(コーチテック)はフリーランスフリーランス特化型のオンラインコーチングプログラミングスクールです。</p>
@@ -37,30 +38,35 @@
   <div class="com">
   </div>
 </section>
-<section>
+<section class="info">
   <div class="contact">
     <h3>問い合わせ</h3>
   </div>
-  <form action="index.html" method="get">
-    <label>
-      　　　名前　　<input type="text" name="name">
-    </label>
-  </form>
-  <form action="index.html" method="get">
-    <label>
-      メールアドレス<input type="email" name="email">
-    </label>
-  </form>
-  <form action="index.html" method="get">
-  　　　用件　　<select name="selct">
+    <form action="index.html" method="get">
+  <div class="name">
+    <label for="name">名前</label>
+  </div>
+  <div class="name">
+    <input type="text" name="name">
+  </div>
+  <div class="email">
+    <label for="email">メールアドレス</label>
+    <input type="email" name="email">
+  </div>
+  <div class="select">
+    <label for="select">用件</label>
+    <select name="selct">
     <option value="広告掲載について">広告掲載について</option>
-  </select>
-  </form>
-  <form action="index.html" method="get">
-    　　　内容　　<textarea name="textarea" cols="30" rows="8"></textarea>
-  </form>
-  <form action="index.html" method="get">
-    <input type="submit" value="削除"> <input type="submit" value="送信">
+    </select>
+  </div>
+  <div class="textarea">
+    <label for="textarea">内容</label>
+    <textarea name="textarea" cols="30" rows="8"></textarea>
+  </div>
+  <div class="submit">
+    <input type="submit" value="削除">
+    <input type="submit" value="送信">
+  </div>
   </form>
 </section>
 </body>

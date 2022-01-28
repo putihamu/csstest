@@ -8,13 +8,16 @@
   text-align: center;
   line-height: 400px;
 }
-.main{
+.con{
   width: 1000px;
+}
+.main{
+  /* width: 1000px; */
   text-align: center;
   margin: 70px 0 70px 0;
 }
 .imgtitle{
-  width: 1000px;
+  /* width: 1000px; */
   text-align: center;
   margin: 0 0 70px 0;
 }
@@ -31,7 +34,7 @@
 .com{
   display: flex;
 }
-.contact{
-  width: 1000px;
+.info{
+  width: 780px;
   text-align: center;
 }
